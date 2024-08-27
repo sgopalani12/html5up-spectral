@@ -102,10 +102,10 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #4fadf0;
 		font-family: "Open Sans", Helvetica, sans-serif;
-		font-size: 20pt;
-		font-weight: 400;
+		font-size: 15pt;
+		font-weight: 600;
 		letter-spacing: 0.075em;
 		line-height: 1.5em;
 	}
@@ -160,6 +160,7 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		padding: 0 65px;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -177,8 +178,9 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 2em;
 		line-height: 1.75em;
+		padding: 0 100px;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -341,9 +343,7 @@ input, select, textarea {
 			width: 16.66667%;
 		}
 
-		.row > .off-2 {
-			margin-left: 16.66667%;
-		}
+
 
 		.row > .col-3 {
 			width: 25%;
@@ -2074,7 +2074,8 @@ input, select, textarea {
 
 		.image img {
 			border-radius: 3px;
-			display: block;
+			display: flexbox;
+			width: 100%;
 		}
 
 		.image.left {
@@ -2650,13 +2651,14 @@ input, select, textarea {
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			border-radius: 0;
+			border-radius: 2;
 			width: 40%;
 		}
 
 			.spotlight .image img {
 				border-radius: 0;
-				width: 100%;
+				width: 110%;
+		
 			}
 
 		.spotlight .content {
@@ -2758,11 +2760,22 @@ input, select, textarea {
 			}
 
 		}
-
+ .centered-image {
+	
+	width: auto;
+	height: auto;
+	object-fit: cover;
+ }
+ .pants-logo {
+	width: auto;
+	height: auto;
+	max-width: 10px;
+	max-height: 1px;
+	
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 1em 1em 1em 1em ;
 	}
 
 		.wrapper > .inner {
@@ -2825,6 +2838,8 @@ input, select, textarea {
 
 			.wrapper.style1 header.major p {
 				color: #d5ca00e9;
+		
+				font-size: 1.8em;
 			}
 
 			.wrapper.style1 label {
@@ -3451,7 +3466,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#header h1 a {
-						font-size: 0.8em;
+						font-size: 4em;
 					}
 
 				}
@@ -3603,8 +3618,10 @@ input, select, textarea {
 			}
 
 		#banner p {
-			letter-spacing: 0.225em;
+			letter-spacing: 1em;
 			text-transform: uppercase;
+			font-weight: bold;
+			font-size: 1.5em;
 		}
 
 			#banner p a {
@@ -3627,7 +3644,7 @@ input, select, textarea {
 			border: none;
 			bottom: 0;
 			color: inherit;
-			font-size: 1.5em;
+			font-size: 2em;
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
@@ -3687,7 +3704,7 @@ input, select, textarea {
 			}
 
 				#banner h2 {
-					font-size: 1.25em;
+					font-size: 25em;
 				}
 
 				#banner br {
