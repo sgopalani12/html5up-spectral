@@ -104,10 +104,10 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #fff;
 		font-family: "Open Sans", Helvetica, sans-serif;
-		font-size: 15pt;
+		font-size: 20pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
-		line-height: 1.65em;
+		line-height: 1.5em;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -2026,7 +2026,7 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-weight: 300;
 		}
 
 		.icon > .label {
@@ -2034,7 +2034,7 @@ input, select, textarea {
 		}
 
 		.icon:before {
-			line-height: inherit;
+		
 		}
 
 		.icon.solid:before {
@@ -2045,40 +2045,14 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.icon.major {
-			-moz-transform: rotate(-45deg);
-			-webkit-transform: rotate(-45deg);
-			-ms-transform: rotate(-45deg);
-			transform: rotate(-45deg);
-			border-radius: 3px;
-			border: solid 2px #fff;
-			display: inline-block;
-			font-size: 1.35em;
-			height: calc(3em + 2px);
-			line-height: 3em;
-			text-align: center;
-			width: calc(3em + 2px);
-		}
+			@media screen and (max-width: 73px) {
 
-			.icon.major:before {
-				-moz-transform: rotate(45deg);
-				-webkit-transform: rotate(45deg);
-				-ms-transform: rotate(45deg);
-				transform: rotate(45deg);
-				display: inline-block;
-				font-size: 1.5em;
-			}
-
-			@media screen and (max-width: 736px) {
-
-				.icon.major {
-					font-size: 1em;
-				}
+				
 
 			}
 
 		.icon.style1 {
-			color: #00ffcc;
+			color: #8f8013;
 		}
 
 		.icon.style2 {
@@ -2487,7 +2461,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #cee77c;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2817,8 +2791,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			background-color: #8531b6;
+			color: #98921b;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2850,7 +2824,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 header.major p {
-				color: #c8ece9;
+				color: #d5ca00e9;
 			}
 
 			.wrapper.style1 label {
@@ -3385,7 +3359,7 @@ input, select, textarea {
 					border: 0;
 					color: inherit;
 					display: block;
-					font-size: 0.8em;
+					font-size: 2.5em;
 					letter-spacing: 0.225em;
 					outline: 0;
 					text-decoration: none;
@@ -3594,7 +3568,7 @@ input, select, textarea {
 			-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 			transition: transform 0.5s ease, opacity 0.5s ease;
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 3.5em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
@@ -3653,7 +3627,7 @@ input, select, textarea {
 			border: none;
 			bottom: 0;
 			color: inherit;
-			font-size: 0.8em;
+			font-size: 1.5em;
 			height: 8.5em;
 			left: 50%;
 			letter-spacing: 0.225em;
