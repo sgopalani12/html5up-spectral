@@ -161,15 +161,17 @@ input, select, textarea {
 	p {
 		margin: 0 0 2em 0;
 		padding: 0 65px;
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #fff;
+		color: #c1c1c1;
 		font-weight: 800;
-		letter-spacing: 0.225em;
-		line-height: 1em;
+		letter-spacing: 0.4em;
+		line-height: 5em;
 		margin: 0 0 1em 0;
 		text-transform: uppercase;
+		text-align: center;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -180,7 +182,7 @@ input, select, textarea {
 	h2 {
 		font-size: 2em;
 		line-height: 1.75em;
-		padding: 0 100px;
+		padding: 0 50px;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -188,6 +190,7 @@ input, select, textarea {
 			h2 {
 				font-size: 1.1em;
 				line-height: 1.65em;
+				letter-spacing: 1rem;
 			}
 
 		}
@@ -2643,7 +2646,7 @@ input, select, textarea {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		
 	}
 
 		.spotlight .image {
@@ -2651,24 +2654,25 @@ input, select, textarea {
 			-webkit-order: 1;
 			-ms-order: 1;
 			order: 1;
-			border-radius: 2;
-			width: 40%;
+			border-radius: 1;
+			width: 50%;
 		}
 
 			.spotlight .image img {
 				border-radius: 0;
-				width: 110%;
+				width: 100%;
 		
 			}
 
 		.spotlight .content {
-			padding: 2em 4em 0.1em 4em ;
+			padding: 1em 1em 1em 1em;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
 			max-width: 48em;
 			width: 60%;
+			margin: 0;
 		}
 
 		.spotlight:nth-child(2n) {
@@ -2733,11 +2737,12 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.spotlight {
-				display: block;
+				display: flex;
+				margin-right: 20px;
 			}
 
 				.spotlight br {
-					display: none;
+					display: flex;
 				}
 
 				.spotlight .image {
@@ -2771,7 +2776,7 @@ input, select, textarea {
 	height: auto;
 	max-width: 10px;
 	max-height: 1px;
-	
+ }
 /* Wrapper */
 
 	.wrapper {
@@ -2805,7 +2810,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-color: #8531b6;
-			color: #98921b;
+			color: #fef554;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -3987,4 +3992,4 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
-	}
+	};
