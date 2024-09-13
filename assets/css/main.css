@@ -3992,4 +3992,8 @@ input, select, textarea {
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
-	};
+	}
+	.icon img{
+		width: 50px;
+		height: 50px;
+	}
