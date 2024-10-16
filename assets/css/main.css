@@ -3997,3 +3997,8 @@ input, select, textarea {
 		width: 50px;
 		height: 50px;
 	}
+
+	.icon-arrow-right-indicator-open{
+		color: black;
+		background-color: #cee77c;
+	}
